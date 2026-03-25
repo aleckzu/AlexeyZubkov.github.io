@@ -60,7 +60,7 @@ params:
   profileMode:
     enabled: true
     title: "Алексей Зубков"
-    subtitle: "Программирование на Си, технологии и мысли."
+    subtitle: "Размышления и мысли"
     imageUrl: "images/Gemini_Generated_Image_.png"
     imageTitle: "Логотип AZ"
     imageWidth: 150
