@@ -7,6 +7,13 @@ enableEmoji: true
 pygmentsUseClasses: true
 mainsections: ["posts"]
 
+# Инструкция для Hugo: создавать поисковый индекс в формате JSON
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 languages:
   ru:
     languageName: "Русский"
@@ -26,6 +33,7 @@ languages:
 params:
   env: production
   author: Алексей Зубков
+  description: "Личный блог Алексея Зубкова"
   defaultTheme: auto
   ShowShareButtons: true
   ShowReadingTime: true
@@ -33,11 +41,15 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
 
-  homeInfoParams:
-    Title: "Привет! 👋"
-    Content: >
-      Добро пожаловать на мой личный сайт. 
-      Здесь я делюсь своими мыслями и проектами.
+  # Настройки для работы поиска (алгоритм Fuse.js)
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
   socialIcons:
     - name: github
@@ -48,6 +60,7 @@ params:
   profileMode:
     enabled: true
     title: "Алексей Зубков"
+    subtitle: "Программирование на Си, технологии и мысли."
     imageUrl: "images/Gemini_Generated_Image_.png"
     imageTitle: "Логотип AZ"
     imageWidth: 150
