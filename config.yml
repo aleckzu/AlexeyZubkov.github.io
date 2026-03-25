@@ -2,7 +2,7 @@ baseURL: "https://aleckzu.github.io/"
 title: "Алексей Зубков"
 theme: [hugo-PaperMod]
 
-defaultContentLanguage: ru  # Устанавливаем русский основным
+defaultContentLanguage: ru
 enableEmoji: true
 pygmentsUseClasses: true
 mainsections: ["posts"]
@@ -33,22 +33,19 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
 
-  # Твоя главная страница (текст можешь менять здесь)
   homeInfoParams:
     Title: "Привет! 👋"
     Content: >
       Добро пожаловать на мой личный сайт. 
       Здесь я делюсь своими мыслями и проектами.
 
-  # Иконки соцсетей (замени URL на свои или удали лишние)
   socialIcons:
     - name: github
       url: "https://github.com/aleckzu"
     - name: telegram
-      url: "https://t.me/твой_логин" # Впиши свой телеграм
+      url: "https://t.me/твой_логин"
 
-      # Вставляй сюда:
-profileMode:
+  profileMode:
     enabled: true
     title: "Алексей Зубков"
     imageUrl: "images/Gemini_Generated_Image_.png"
@@ -58,10 +55,11 @@ profileMode:
     buttons:
       - name: "Читать статьи"
         url: "posts"
+
   assets:
     disableHLJS: true
 
 markup:
   goldmark:
     renderer:
-      unsafe: true # Чтобы работали картинки и видео в постах
+      unsafe: true
