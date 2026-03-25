@@ -1,122 +1,13 @@
----
-author: "Hugo Authors"
-title: "Markdown Syntax Guide"
-date: "2019-03-11"
-description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
-tags: ["markdown", "css", "html", "themes"]
-categories: ["themes", "syntax"]
-series: ["Themes Guide"]
-aliases: ["migrate-from-jekyl"]
-cover:
-  image: images/msg.png
-  caption: "Generated using [OG Image Playground by Vercel](https://og-playground.vercel.app/)"
-ShowToc: true
-TocOpen: true
----
+[Event "Классика. Стейниц.: Костоев - Зубков"]
+[Result "*"]
+[Variant "Standard"]
+[Annotator "https://lichess.org/@/AlexeyZubkov"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[StudyName "Подготовка для Лёши"]
+[ChapterName "1 тур Костоев - Зубков"]
+[UTCDate "2025.05.16"]
+[UTCTime "19:34:35"]
+[ChapterURL "https://lichess.org/study/ItHsRScM/ar95t2z3"]
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-
-<!--more-->
-
-## Headings
-
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
-
-# H1
-
-## H2
-
-### H3
-
-#### H4
-
-##### H5
-
-###### H6
-
-## Paragraph
-
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
-
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
-
-## Blockquotes
-
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
-
-#### Blockquote without attribution
-
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use _Markdown syntax_ within a blockquote.
-
-#### Blockquote with attribution
-
-> Don't communicate by sharing memory, share memory by communicating.
->
-> — <cite>Rob Pike[^1]</cite>
-
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
-
-## Tables
-
-Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-box.
-
-| Name  | Age |
-| ----- | --- |
-| Bob   | 27  |
-| Alice | 23  |
-
-#### Inline Markdown within tables
-
-| Italics   | Bold     | Code   |
-| --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
-
-## List Types
-
-#### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-#### Unordered List
-
-- List item
-- Another item
-- And another item
-
-#### Nested Unordered list
-
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
-
-#### Nested Ordered list
-
-1. Fruit
-    - Apple
-    - Orange
-    - Banana
-2. Dairy
-    1. Milk
-    2. Cheese
-3. Third item
-    1. Sub One
-    2. Sub Two
-
-## Other Elements — abbr, sub, sup, kbd, mark
-
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+1. e4 c5 2. Bc4 Nc6 3. Nf3 e6 4. Nc3 a6 5. d4 b5 6. Be2 cxd4 7. Nxd4 Qb6 8. Be3 Bc5 9. Nxc6 Bxe3 10. fxe3 dxc6 11. Qd4 Qxd4 12. exd4 Nf6 13. e5 Nd5 14. Bf3 Bb7 15. Nxd5 cxd5 16. O-O-O O-O 17. h4 Rac8 18. h5 h6 19. g4 Kh7 20. Be2 f6 21. Bd3+ Kg8 22. exf6 Rxf6 23. Rhf1 Rcf8 24. Rxf6 Rxf6 25. Re1 Bc8 26. Rf1 Rxf1+ 27. Bxf1 e5 28. dxe5 Bxg4 29. Bg2 Be6 30. Kd2 Kf7 31. Kd3 Bf5+ 32. Kd4 Bxc2 33. Bxd5+ Ke7 34. Bf3 Bf5 35. Kd5 Be6+ 36. Kc6 Bxa2 37. Kb6 Ke6 38. Kxa6 Bc4 39. Kb6 Kxe5 40. Kc6 Kf4 41. Bd1 Kg5 42. b3 Bd3 43. Kd5 Bf5 44. Kc6 Bg4 45. Bxg4 Kxg4 46. Kxb5 Kxh5 47. Kc6 g5 48. b4 g4 49. b5 g3 50. b6 g2 51. b7 g1=Q 52. b8=Q Qg2+ 53. Kd7 Qd5+ 54. Ke7 Qg5+ 55. Kd7 Kh4 56. Qh2+ Kg4 57. Qg1+ Kh5 58. Qh2+ Kg6 59. Qd6+ Kh7 60. Kc8 h5 61. Qd3+ Kh6 62. Qd6+ Kg7 63. Qd7+ Kg6 64. Qd6+ Kf5 65. Qd5+ Kg4 66. Qe4+ Qf4 67. Qg6+ Kh4 68. Kd7 Qg4+ 69. Qxg4+ hxg4 *
