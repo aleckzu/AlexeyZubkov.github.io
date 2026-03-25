@@ -55,7 +55,7 @@ params:
     - name: github
       url: "https://github.com/aleckzu"
     - name: telegram
-      url: "https://t.me/твой_логин"
+      url: "https://t.me/Alexbelgorodchess"
 
   profileMode:
     enabled: true
