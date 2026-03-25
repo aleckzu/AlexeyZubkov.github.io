@@ -48,14 +48,16 @@ params:
       url: "https://t.me/твой_логин" # Впиши свой телеграм
 
       # Вставляй сюда:
-  profileMode:
+profileMode:
     enabled: true
     title: "Алексей Зубков"
     imageUrl: "images/Gemini_Generated_Image_.png"
     imageTitle: "Логотип AZ"
     imageWidth: 150
     imageHeight: 150
-
+    buttons:
+      - name: "Читать статьи"
+        url: "posts"
   assets:
     disableHLJS: true
 
