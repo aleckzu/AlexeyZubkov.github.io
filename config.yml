@@ -40,6 +40,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+  copyright: "© 2026 Алексей Зубков"
 
   # Настройки для работы поиска (алгоритм Fuse.js)
   fuseOpts:
